@@ -43,7 +43,7 @@ if Band eq 'Ks' then begin
 endif
 
 ; input and output directories
-plotdir = 'plots/'
+plotdir = '../plots/'
 indir = '/home/data/GNS/2021/'+ Band + '/' + field + 'HB'
 outdir = indir
 photdir = indir + '/photo/chip' + strn(chip_nr) + '/lists/'
